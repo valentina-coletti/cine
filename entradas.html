@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ENTRADAS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+   <link rel="stylesheet" href="./css/estilos.css">
+
+   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper.bundle.min.css" />
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Heebo:wght@100&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+   
+  
+
+
+  </head>
+
+
+
+  <body style=" background-image: linear-gradient(black, rgb(56, 55, 55))">
+
+
+    <nav class="navbar navbar-expand-sm navbar bg-body-tertiary" style="padding: 0%;">
+        <div class="container-fluid" style="background-color: black;"> 
+          <a class="navbar-brand"s href="CinemaConcept.html"><img src="Imagenes/logo.png" alt="" width="200px" height="200px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="caja1" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="iteminicio">
+                <a class="nav-link actives" style="color: white;font-size: 20px;font-weight: 700;" aria-current="page" href="CinemaConcept.html">Inicio</a>
+              </li>
+
+              <li class="itemcartelera">
+                <a class="nav-link" style="color: white;font-size: 20px;font-weight: 700;" href="CinemaConcept.html">Cartelera</a>
+              </li>
+
+              <li class="itemestrenos">
+                <a class="nav-link estrenos" style="color: white; font-size: 20px;font-weight: 700;"  href="CinemaConcept.html" role="button"> Estrenos</a>
+              </li>
+
+              <li class="itemcontacto">
+                <a class="nav-link contacto" style="color: white;font-size: 20px;font-weight: 700;" href="contacto.html" role="button">Contacto</a>
+              </li>
+
+              <li class="itementradas">
+                <a class="nav-link entradas" style="color: white;font-size: 20px;font-weight: 700;" href="entradas.html" role="button">Entradas</a>
+              </li>
+
+              <li class="itemregistrate">
+                <a class="nav-link registrate" style="color: white;font-size: 20px;font-weight: 700;" href="registrarse.html" role="button">Registrate</a>
+              </li>
+
+              <li class="itemnoticias">
+                <a class="nav-link noticias" style="color: white;font-size: 20px;font-weight: 700;" href="#" role="button">Noticias</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+               <!-- entradas -->
+
+               <div class="compra-container my-5">
+                <h1>Compra de Entradas </h1>
+                <form class="compra-form">
+                    <label for="pelicula">Película:</label>
+                    <select id="pelicula" name="pelicula" required>
+                        <option value="pelicula1">Película 1</option>
+                        <option value="pelicula2">Película 2</option>
+                        <option value="pelicula3">Película 3</option>
+                    </select>
+        
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+        
+                    <label for="cantidad">Cantidad de Entradas:</label>
+                    <input type="number" id="cantidad" name="cantidad" min="1" required>
+        
+                    <div id="precio-total">Precio Total: $0</div>
+        
+                    <button type="submit">Comprar</button>
+                </form>
+            </div>
+
+     
+
+     
+         <!-- footer -->
+
+    <footer> 
+      <div class="card text-center">
+        <div class="card-header">
+         
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">TEL: 011 567 456</h5>
+          <h5 class="card-title">E-MAIL: CINECOONCEPT@GMAIL.COM </h5>
+
+          <p class="card-text"> Política de uso y privacidad</p>
+         
+          <a href="#" class="btn">Accedé aquí</a>
+        </div>
+        </div>
+        
+      </div>
+       </footer>
+    
+
+       
+   
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+       <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+       <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+       <script src="script.js"></script>
+
+      
+
+      
+     
+
+      </body>
+</html>

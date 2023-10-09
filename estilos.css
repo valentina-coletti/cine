@@ -1,0 +1,386 @@
+/* INICIO */
+
+.caja1 a{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.iteminicio :hover{
+background-color: orange;
+}
+
+.itemcartelera :hover{
+ background-color: orange;
+}
+
+.itemestrenos :hover{
+background-color: orange;
+}
+
+.itemcontacto :hover{
+ background-color: orange;
+}
+
+.itementradas :hover{
+  background-color: orange;
+}
+
+.itemregistrate :hover{
+  background-color: orange;
+}
+.itemnoticias :hover{
+  background-color: orange;
+}
+
+
+
+.card {
+  background-color: rgb(103, 103, 103);
+}
+
+
+.card-body {
+  color: black;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;;
+  justify-content: center;
+}
+
+.card-body h2{
+  font-size: 15px;
+}
+
+.card-body h3{
+  font-size: 13px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.card-body h5{
+  color: orange;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+
+.recomendacionestext h1{
+  display: flex;
+  align-items: center;
+  color: orange;
+  justify-content: center;
+  margin-top: 50px;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;;
+}
+
+
+.carteleratext h1{
+  display: flex;
+  margin-left: 50px;
+  color: orange;
+  margin-top: 50px;
+  font-weight: 100;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;;
+}
+
+.card-cartelera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.text-body-secondary1 {
+  font-size: 15px;
+  font-weight: 800;
+  color: orange;
+}
+ 
+
+
+/* CONTACTO */
+
+
+.contacto-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+*{
+  font-family: 'Montserrat', sans-serif;;
+}
+
+h1 {
+  text-align: center;
+  
+}
+
+.contacto-container{
+  background-color: transparent;
+}
+
+.contacto-container h1{
+  color: orange;
+}
+.contacto-form {
+  display: grid;
+  gap: 10px;
+}
+
+.contacto-form label {
+  color: white;
+  font-weight: bold;
+}
+
+.contacto-form input[type="text"],
+.contacto-form input[type="email"],
+.contacto-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contacto-form button {
+  background-color: orange;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 20px;
+  width: 100px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .contacto-container {
+      margin: 10px;
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
+
+  .contacto-form {
+      grid-template-columns: 1fr;
+  }
+}
+
+/* REGISTRATE*/
+
+*{
+  font-family: 'Montserrat', sans-serif;;
+}
+
+.registro-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+
+
+ .registro-container h1{
+  color: orange;
+ }
+
+h1 {
+  text-align: center;
+}
+
+.registro-form {
+  display: grid;
+  gap: 10px;
+}
+
+.registro-form label {
+  color: white;
+  font-weight: bold;
+}
+
+.registro-form input[type="text"],
+.registro-form input[type="email"],
+.registro-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registro-form button {
+  background-color: orange;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 20px;
+  width: 100px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .registro-container {
+      margin: 10px;
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
+
+  .registro-form {
+      grid-template-columns: 1fr;
+  }
+}
+
+/* entradas */
+
+.compra-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.compra-container h1{
+  color: orange;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.compra-form {
+  display: grid;
+  gap: 10px;
+}
+
+.compra-form label {
+  color: white;
+  font-weight: bold;
+}
+
+.compra-form select,
+.compra-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.compra-form #precio-total {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.compra-form button {
+  background-color: orange;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 20px;
+  width: 100px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .compra-container {
+      margin: 10px;
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
+
+  .compra-form {
+      grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-start,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+  // transition-duration: 10s;
+}
+
+/* display 4 */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-item-next:not(.carousel-item-start) {
+    transform: translateX(25%) !important;
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-item-prev:not(.carousel-item-end),
+  .active.carousel-item-start,
+  .carousel-item-prev:not(.carousel-item-end) {
+    transform: translateX(-25%) !important;
+  }
+
+  .carousel-item-next.carousel-item-start, .active.carousel-item-end {
+    transform: translateX(0) !important;
+  }
+
+  .carousel-inner .carousel-item-prev,
+  .carousel-item-prev:not(.carousel-item-end) {
+    transform: translateX(-25%) !important;
+  }
+}
